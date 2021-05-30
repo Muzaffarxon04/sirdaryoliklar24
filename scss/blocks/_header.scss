@@ -1,0 +1,118 @@
+.header__bg{
+    background-color: #F6F6F9;
+    padding-bottom: 23px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+        // box start
+
+        .box{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 47px;
+            .box__left{
+                display: flex;
+                align-items: center;
+                .left__link{
+                    display: inline-block;
+                    width: 320px;
+                    padding: 3px 6px 4px 8px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+                    border-radius: 5px;
+                    color: #295091;
+                    font-weight: bold;
+                    font-size: 28px;
+                }
+                .left__lorem{
+                    margin: 0 17px;
+                    font-size: 16px;
+                    color: #b3aaaa;
+                    .left__span{
+                        color: #285193;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .box__right{
+                display: flex;
+                justify-content: space-between;
+                width: 300px;
+                .right__button{
+                    border: none;
+                    cursor: pointer;
+                    background-color: #fff;
+                    width: 38.1px;
+                    height: 40px;
+                    border-radius: 5px;
+                }
+                .right__button-logo{
+                    border: none;
+                    cursor: pointer;
+                    width: 64.76px;
+                    height: 40px;
+                    background: #FFFFFF;
+                    border-radius: 5px;
+                    padding: 0 9px;
+                    .button-logo__text{
+                        margin-left: 5px;
+                        font-size: 16px;
+                        color: #535353;
+                        font-weight: 500;
+                    }
+                }
+                .right__button-box{
+                    border: none;
+                    cursor: pointer;
+                    background-color: transparent;
+                    width: 146px;
+                    height: 40px;
+                    color: #ffff;
+                    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+                    border-radius: 5px;
+                    .fab{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        // menu-logo start
+
+        .menu-logo{
+            background-color: #FFFFFF;
+            box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+            border-radius: 5px;
+            margin-top: 44px;
+            .menu__logo__menu{
+                display: flex;
+                height: 68px;
+                width: 1200px;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 20px;
+                transition: .5s ease all;
+                .menu__iytms{
+                    .menu__link{
+                        font-weight: 500;
+                        font-size: 19px;
+                        color: #515151;
+                        &:hover{
+                            color: #295093;
+                        }
+                    }
+                }
+            }
+        }
+
+        // img-logo start
+
+        .img-logo{
+            height: 99px;
+            margin-top: 18px;
+        }
+
+        //  tugadi
+}

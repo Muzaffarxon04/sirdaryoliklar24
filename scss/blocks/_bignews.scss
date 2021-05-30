@@ -1,0 +1,210 @@
+
+.last-news__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    .ls-wrapper{
+        .info-1{
+            width: 512px;
+            height: 143px;
+            padding-left: 265px;
+            text-decoration: none;
+            position: relative;
+            margin-bottom: 8px;
+            &:before{
+                position: absolute;
+                content: url('../img/21sardoba.png');
+                width: 252px;
+                height: 143px;
+                left: 0;
+            }
+            .info-1__title{
+                width:434px;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 20px;
+                color: #202020;
+                margin-bottom: 8px;
+            }
+            .info-1__text{
+                width: 512px;
+                font-size: 15px;
+                line-height: 18px;
+                color: #434343;
+                margin-bottom: 12px;
+            }
+            .info-1__time{
+                font-size: 14px;
+                line-height: 17px;
+                color: #7688A4;
+                position: relative;
+                padding-left: 20px;
+                &:before{
+                    position: absolute;
+                    content: url('../img/Vectorcalendar.png');
+                    width: 252px;
+                    height: 143px;
+                    left: 0;
+                }
+            }
+        }
+        .info-2{
+            width: 512px;
+            padding-left: 265px;
+            text-decoration: none;
+            position: relative;
+            margin-bottom: 18px;
+            &:before{
+                position: absolute;
+                content: url('../img/23pre-speech.png');
+                width: 252px;
+                height: 143px;
+                left: 0;
+            }
+            .info-2__title{
+                width: 507px;;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 20px;
+                color: #202020;
+                margin-bottom: 8px;
+            }
+            .info-2__text{
+                width: 512px;
+                font-size: 15px;
+                line-height: 18px;
+                color: #434343;
+                margin-bottom: 12px;
+            }
+            .info-2__time{
+                font-size: 14px;
+                line-height: 17px;
+                color: #7688A4;
+                position: relative;
+                padding-left: 20px;
+                &:before{
+                    position: absolute;
+                    content: url('../img/Vectorcalendar.png');
+                    width: 252px;
+                    height: 143px;
+                    left: 0;
+                }
+            }
+        }
+        .info-3{
+            width: 512px;
+            padding-left: 265px;
+            text-decoration: none;
+            position: relative;
+            margin-bottom: 18px;
+            &:before{
+                position: absolute;
+                content: url('../img/24bus-in-way.png');
+                width: 252px;
+                height: 143px;
+                left: 0;
+            }
+            .info-3__title{
+                width: 523px;;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 20px;
+                color: #202020;
+                margin-bottom: 8px;
+            }
+            .info-3__text{
+                width: 512px;
+                font-size: 15px;
+                line-height: 18px;
+                color: #434343;
+                margin-bottom: 12px;
+            }
+            .info-3__time{
+                font-size: 14px;
+                line-height: 17px;
+                color: #7688A4;
+                position: relative;
+                padding-left: 20px;
+                &:before{
+                    position: absolute;
+                    content: url('../img/Vectorcalendar.png');
+                    width: 252px;
+                    height: 143px;
+                    left: 0;
+                }
+            }
+        }
+        .ls-wrapper__link{
+            // padding-top: 18px;
+            text-align: center;
+            .ls-link__item{
+                display: inline-block;
+                padding: 10px 32px;
+                border-radius: 5px;
+                background-color: #295093;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+    .rs-wrapper{
+        width: 386px;
+        height: 525px;
+        background-color: #F6F6F9;
+        border-radius: 5px;
+        padding:16px 19px 18px 20px ;
+        margin-top: -20px;
+        box-sizing: border-box;
+        .rs__title{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #202020;;
+            margin-bottom: 6px;
+        }
+        .best-info{
+            padding-bottom: 36px;
+            .best-info__text{
+                font-size: 17px;
+                line-height: 20px;
+                color: #202020;
+                margin-bottom: 11px;
+                a{
+                    color: #202020;
+                }
+            }
+            .best-info__time{
+                font-size: 14px;
+                line-height: 17px;
+                color: #7688A4;
+                margin-bottom: 14px;
+                position: relative;
+                padding-bottom: 14px;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    width: 346px;
+                    height: 4px;
+                    background-color: #e4e4e4;
+                    left: 0;
+                    bottom: 0;
+                    margin: 0 auto;
+                }
+            }
+            .best-info__time-plus{
+                font-size: 14px;
+                line-height: 17px;
+                color: #7688A4;
+                margin-bottom: 14px;
+            }
+        }
+    }
+    acide .best-info__image{
+        margin-top: 20px;
+    }
+}

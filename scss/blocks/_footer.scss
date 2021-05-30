@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --background-color: #295093;
+    --main-color: #ffffff;
+    --line-color: #133C82;
+}
+.footer{
+    background-color: var(--background-color);
+    width: 100%;
+    padding: 18px 0 13px;
+    margin-top: 40px;
+}
+.footer__container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer__up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer__heading{
+        color: var(--main-color);
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        background-color: var(--line-color);
+        border-radius: 5px;
+        /* transform: matrix(1, 0, 0, -1, 0, 0); */
+        padding: 11px 12px 6px 9px;
+        margin-right: 200px;
+    }
+    .footer__text{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--main-color);
+    }
+    .btn{
+        width: 132px;
+        height: 38px;
+        padding: 10px 11px 9px 33px;
+        border-radius: 5px;
+        background-color: var(--main-color);
+        position: relative;
+        border: none;
+        cursor: pointer;
+    }
+    .footer__link{
+        color: var(--background-color);
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 17px;
+        
+    }
+    .btn::before{
+        content: '';
+        position: absolute;
+        background: url('../img/Vector.svg');
+        width: 17px;
+        height: 19px;
+        margin-left: -27px;
+    }
+}
+.footer__text{
+    margin-right: 17px;
+}
+.footer__line{
+    margin-top: 18px;
+    background-color: var(--line-color);
+    height: 3px;
+    border: none;
+}
+.footer__down{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 12px;
+    .text{
+        width: 365px;
+        height: 121px;
+        margin-right: 111px;
+        color: #fff;
+        line-height: 17px;
+        font-size: 14px;
+    }
+    .info__text{
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    .footer__menu{
+        list-style-type: none;
+    }
+    .menu__link{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 40px;
+        color: var(--main-color);
+        text-decoration: none;
+        margin-right: 115px;
+
+    }
+}

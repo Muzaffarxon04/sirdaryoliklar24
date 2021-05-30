@@ -1,0 +1,232 @@
+.registretion{
+    background-color: #fff;
+    padding: 20px;
+    .registretion__title{
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        .registretion__form-group{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            .form-group__inpud{
+                width: 600px;
+                height: 50px;
+                background-color: #F1F1F1;
+                padding-left: 10px;
+                margin-bottom: 20px;
+                border: 2px solid #cfcdcd;
+                border-radius: 4px;
+                outline: none;
+            }
+            .form-group__textarea{
+                width: 600px;
+                height: 307px;
+                background-color: #F1F1F1;
+                border: 2px solid #cfcdcd;
+                border-radius: 5px;
+                outline: none;
+                padding: 10px;
+                resize: none;
+                margin-bottom: 20px;
+            }
+            .input{
+                visibility: hidden;
+                position: absolute;
+            }
+            .label{
+                position: relative;
+                display: inline-block;
+                color: #888;
+                padding: 15px 55px 14px 26px;
+                border: 2px solid rgba(40, 81, 147, 0.3);
+                border-radius: 5px;
+                background-color: #F1F1F1;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    bottom: 12px;
+                    right: 19px;
+                    background-image: url(../img/Frame.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .input__password{
+                display: flex;
+                align-items: center;
+
+                .form-group__password{
+                width: 221px;
+                height: 50px;
+                background-color: #F1F1F1;
+                border: 2px solid #cfcdcd;
+                border-radius: 5px;
+                outline: none;
+                padding-left: 10px;
+                margin: 20px 0;
+                margin-right: 18px;
+            }
+            .label__password{
+                display: inline-block;
+        }
+        }
+        .form-group__btn{
+            display: inline-block;
+            width: 221px;
+            height: 50px;
+            background-color: #295093;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+
+    }
+    .registretion__section{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        .section__content{
+            width: 510px;
+            height: 280px;
+            box-shadow: -6px 8px 9px rgba(41, 80, 145, .25);
+            border-radius: 5px;
+            padding: 20px 20px 0;
+            .content__title{
+                font-size: 28px;
+                font-weight: 700;
+                color: #295091;
+                text-align: end;
+                text-transform: uppercase;
+            }
+            .content__item{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .content__item-text{
+                    font-size: 18px;
+                    font-weight: 400;
+                    font-style: normal;
+                    color: #888;
+                    margin: 16px 0;
+                }
+                .content__item-link{
+                    text-decoration: none;
+                    color: #888;
+                }
+                .content__item-icons{
+                    display: flex;
+                    flex-direction: row;
+                    .icon{
+                        font-size: 23px;
+                        padding: 0 10px;
+                        color: #295091;
+                    }
+                }
+                .content__item-btn{
+                    width: 150px;
+                    height: 33px;
+                    background-color: #295091;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #fff;
+                    .fab{
+                        margin-left: 10px;
+                    }
+                }
+                .content__item-shops{
+                    background-color: #D6DEEA;
+                    width: 111px;
+                    height: 33px;
+                    border-radius: 5px;
+                    padding: 6px 10px;
+                    position: relative;
+                    outline: none;
+                    border: none;
+                    .shops__title{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #295091;
+                    }
+                    .shops__text{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        font-size: 10px;
+                        color: #295091;
+                    }
+                    &::before{
+                        content: "";
+                        width: 30px;
+                        height: 30px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        background-image: url(..//img/images2.png);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+                .content__item-shops2{
+                    background-color: #D6DEEA;
+                    width: 111px;
+                    height: 33px;
+                    border-radius: 5px;
+                    padding: 6px 10px;
+                    position: relative;
+                    outline: none;
+                    border: none;
+                    .shops__title{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #295091;
+                    }
+                    .shops__text{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        font-size: 10px;
+                        color: #295091;
+                    }
+                    &::before{
+                        content: "";
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        left: 0;
+                        top: 5;
+                        background-image: url(..//img/apple.png);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+    }
+    }
+}
